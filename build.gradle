@@ -90,12 +90,12 @@ assets {
 //for artifactory publish
 String targetRepo = version.endsWith('SNAPSHOT') ? 'plugins-snapshot-local' : 'plugins-release-local'
 artifactory {
-    contextUrl = "${repositoryUrl}"
+    contextUrl = "http://www.repositoryUrl.com"
     publish {
         repository {
             repoKey = targetRepo // The Artifactory repository key to publish to
-            username = "${repositoryUser}" // The publisher user name
-            password = "${repositoryPassword}" // The publisher password
+            username = "user" // The publisher user name
+            password = "password" // The publisher password
         }
         defaults {
             // Reference to Gradle publications defined in the build script.
