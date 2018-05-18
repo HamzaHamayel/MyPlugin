@@ -12,8 +12,8 @@ class MyPluginGrailsPlugin extends Plugin {
     ]
 
     // TODO Fill in these fields
-    def title = "My Plugin" // Headline display name of the plugin
-    def author = "Your name"
+    def title = "Test Plugin" // Headline display name of the plugin
+    def author = "Grails"
     def authorEmail = ""
     def description = '''\
 Brief summary/description of the plugin.
